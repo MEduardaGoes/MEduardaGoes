@@ -1,4 +1,4 @@
-## Oiii eu sou a Eduarda!
+## Eduarda por aqui!
 <div align="center">
   <a href="https://github.com/KwidRebaixada">
   <img height="120em" src="https://github-readme-stats.vercel.app/api?username=KwidRebaixada&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
