@@ -17,7 +17,7 @@ jobs:
           github_user_name: MEduardaGoes
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      # Atualize a ação para a versão mais recente
+      # Atualize a ação para uma versão que usa Node 16+
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
