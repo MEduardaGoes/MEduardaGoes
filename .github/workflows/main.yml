@@ -17,10 +17,10 @@ jobs:
           github_user_name: MEduardaGoes
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      # Atualize a ação para uma versão que usa Node 16+
-      - uses: crazy-max/ghaction-github-pages@v3
+      # Usando a ação peaceiris/actions-gh-pages para publicar no GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          destination_dir: output
